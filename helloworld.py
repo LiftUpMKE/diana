@@ -6,9 +6,10 @@ def example():
         mystring = sys.argv[1] 
     except: 
         mystring = "World" 
-    print("Hello", mystring) 
+    print("Hello", mystring)
 
-
+if __name__ == "__main__":
+    example()
 
 
 
